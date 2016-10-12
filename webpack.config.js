@@ -31,7 +31,9 @@ module.exports = {
             openWeatherMap: 'app/api/openWeatherMap.jsx',
 
             WeatherMessage:
-                'app/components/WeatherMessage.jsx'
+                'app/components/WeatherMessage.jsx',
+
+            ErrorModal: 'app/components/ErrorModal.jsx'
         },
         extensions: ['', '.js', '.jsx']
     },
