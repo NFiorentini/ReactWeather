@@ -3,7 +3,11 @@ const React = require('react');
 const About = (props) => {
     return (
         <div>
-            <h3>About</h3>
+            <h1 className="text-center">About</h1>
+
+            <a href="http://openweathermap.org">
+              Open Weather Map
+            </a>
 
             <p>What am I eighth grade hall monitor? Current whereabouts? Let me tell you something, Mike. There are rules to this lawyer thing. Attorney client privilege, that's a big one. That's something I provide for you! If I give up Pinkman, then you're gonna be asking, old Saul gives 'em up pretty easy what's to keep him from giving me up? You see, so then, where's the trust? </p>
 
