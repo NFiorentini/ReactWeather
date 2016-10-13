@@ -14,6 +14,8 @@ require(
 
 $(document).foundation();
 
+require('style!css!applicationStyles');
+
 ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={Main}>
