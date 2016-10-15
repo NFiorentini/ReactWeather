@@ -44,9 +44,7 @@ const ErrorModal = React.createClass({
 
   render: function () {
     return (
-      <div>
-
-      </div>
+      <div></div>
     );
   }
 });
